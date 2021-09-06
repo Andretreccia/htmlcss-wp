@@ -68,6 +68,7 @@ a {
         margin: 1rem;
         border-radius: 0.5rem;
         background-color: rgb(138, 120, 88);
+        background-image: url("./img/banner.jpg");
     
     }
     .herotext {
@@ -81,13 +82,7 @@ a {
     }
     
     /* Site content */
-    h1 {
-        font-weight: 900;
-        font-size: 3rem;
-    }
-    
-
-    .sidetext{
+    .sidetext {
         background-color: rgb(252, 239, 61);
         width: 20%;
         float: left;     
