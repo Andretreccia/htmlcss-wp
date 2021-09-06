@@ -21,7 +21,7 @@ body {
      background-color:rgb(222 175 24 / 43%); */
 
 .heroimg.debug {
-    height: 400px;
+    height: 430px;
 }
 .titlecontent.debug {
     height: 100px;
@@ -67,14 +67,17 @@ a {
     .heroimg {
         margin: 1rem;
         border-radius: 0.5rem;
+        background-color: lightgray;
         background-image: url("../img/banner.jpg");
-        background-size: cover;
-    
-    
+        background-position-y: center;
+        background-blend-mode:multiply
     }
     .herotext {
-        width: 50%;
+        width: 43%;
         color: white;
+        margin: 3rem;
+        position:relative;
+        top: 60%;
     }
     .titlecontent {
         background-color: rgb(207 236 225);
