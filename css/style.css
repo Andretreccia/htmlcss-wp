@@ -43,32 +43,30 @@ body {
   height: 50px;
 } */
 /* /debug section */
-/* Site Header */
-.siteheader {
+    /* Site Header */
+    .siteheader {
    
     margin: 1rem;
     margin-top: 0;
-
-}
-
-.logoimg {
+    }
+    .logoimg {
     border-right: 0.2rem solid #E8E8E8;
     padding-right: 2rem;
     height: 4rem;
-}
-.navbar {
+    }
+    .navbar {
     margin-top: 2rem;
     margin-bottom: 2rem;
-}
-a {
+    }
+    a {
     text-decoration: none;
     color: #979797;
     margin-right: 0.5rem;
     font-weight: bold;
-}
-/* /Site Header */
+    }
+    /* /Site Header */
 
-/* Site Main */
+    /* Site Main */
     .heroimg {
         border-radius: 0.5rem;
         background-color: lightgray;
@@ -98,21 +96,19 @@ a {
         font-size: 0.9rem;
         font-weight: bold;
     }
-
-    
-    /* Site content */
-    .sidetext {
+        /* Site content */
+        .sidetext {
         
         width: 20%;
         float: left;     
-    }
-    .centertext {
+        }
+        .centertext {
         width: 56%;
         float: left;
         margin-left: 2%;
         margin-right: 2%;
-    }
-   .imgleft {
+        }
+        .imgleft {
        height: 11rem;
        background-image: url(../img/img-1.jpg);
        background-blend-mode:multiply;
@@ -120,8 +116,8 @@ a {
        background-size: cover;
        background-position: center;
        border-radius: 1rem;
-   }
-    .imgcenter {
+        }
+        .imgcenter {
        height: 11rem;
        border-radius: 1rem;
        background-image: url(../img/banner-2.jpg);
@@ -130,8 +126,8 @@ a {
        background-size: cover;
        background-position: center;
        border-bottom: 3px solid lightgray;
-    }
-    .imgright {
+        }
+        .imgright {
        height: 11rem;
        background-image: url(../img/img-3.jpg);
        background-blend-mode:multiply;
@@ -140,12 +136,12 @@ a {
        background-position: center;
        border-radius: 1rem;
        }
-    h6 {
+        h6 {
         font-size:0.9rem;
         margin: 1rem;
         margin-left: 0;
-    }
-    p {
+        }
+        p {
         font-size: 0.9rem;
         font-weight: bold;
         color: #979797;
@@ -164,5 +160,4 @@ a {
     color: red;
     font-size: x-large;
 }
-
 /* /Sitefooter */
