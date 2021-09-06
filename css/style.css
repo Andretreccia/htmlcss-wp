@@ -108,37 +108,26 @@ body {
         margin-left: 2%;
         margin-right: 2%;
         }
-        .imgleft {
-       height: 11rem;
-       background-image: url(../img/img-1.jpg);
-       background-blend-mode:multiply;
-       background-color: lightgray;
-       background-size: cover;
-       background-position: center;
-       border-radius: 1rem;
+
+       img.center {
+        height: 11rem;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(80%);
+        border-bottom: 0.2rem solid #ffffff;
+        border-radius: 0.5rem;
         }
-        .imgcenter {
-       height: 11rem;
-       border-radius: 1rem;
-       background-image: url(../img/banner-2.jpg);
-       background-blend-mode:multiply;
-       background-color: lightgray;
-       background-size: cover;
-       background-position: center;
-       border-bottom: 3px solid lightgray;
+        img.side {
+        height: 11rem;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(80%);
+        border-radius: 0.5rem;
         }
-        .imgright {
-       height: 11rem;
-       background-image: url(../img/img-3.jpg);
-       background-blend-mode:multiply;
-       background-color: lightgray;
-       background-size: cover;
-       background-position: center;
-       border-radius: 1rem;
-       }
         h6 {
         font-size:0.9rem;
-        margin: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
         margin-left: 0;
         }
         p {
