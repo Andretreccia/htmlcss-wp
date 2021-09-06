@@ -20,7 +20,7 @@ body {
     height: 100px;
      background-color:rgb(222 175 24 / 43%); */
 
-.article.debug {
+.heroimg.debug {
     height: 400px;
 }
 .titlecontent.debug {
@@ -64,10 +64,15 @@ a {
 }
 /* /Site Header */
 /* Site Main */
-    .article {
-        background-color: mediumpurple;
+    .heroimg {
         margin: 1rem;
-        
+        border-radius: 0.5rem;
+        background-color: rgb(138, 120, 88);
+    
+    }
+    .herotext {
+        width: 50%;
+        color: white;
     }
     .titlecontent {
         background-color: rgb(207 236 225);
@@ -76,11 +81,12 @@ a {
     }
     
     /* Site content */
-    .sitecontent {
-        background-color: skyblue;
-        margin: 1rem;
-        
+    h1 {
+        font-weight: 900;
+        font-size: 3rem;
     }
+    
+
     .sidetext{
         background-color: rgb(252, 239, 61);
         width: 20%;
