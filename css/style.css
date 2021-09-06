@@ -21,14 +21,14 @@ body {
     height: 100px;
      background-color:rgb(222 175 24 / 43%); */
 
-.heroimg.debug {
+/* .heroimg.debug {
     height: 430px;
-}
-.titlecontent.debug {
+} */
+/* .titlecontent.debug {
     height: 100px;
-}
+} */
 .sitecontent.debug {
-    height: 630px;
+    height: 600px;
 }
 /*.sidetext.debug {
      height: 500px;
@@ -39,9 +39,9 @@ body {
     height: 500px;
      background-color:mediumblue; 
 }*/
-.sitefooter {
+/* .sitefooter {
   height: 50px;
-}
+} */
 /* /debug section */
 /* Site Header */
 .siteheader {
@@ -74,7 +74,8 @@ a {
         background-color: lightgray;
         background-image: url("../img/banner.jpg");
         background-position: center;
-        background-blend-mode:multiply
+        background-blend-mode:multiply;
+        height: 430px;
     }
     .herotext {
         width: 43%;
@@ -83,9 +84,13 @@ a {
         position:relative;
         top: 60%;
     }
+    .titlecontent {
+        margin: 2rem;
+        margin-left: 0;
+    }
     .title {
-        font-size: 2rem;
-        margin-top: 2rem;
+        font-size: 2rem; 
+       
     }
     .titletext {
         color: gray;
@@ -100,10 +105,10 @@ a {
         float: left;     
     }
     .centertext {
-        width: 58%;
+        width: 56%;
         float: left;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
    .imgleft {
        height: 11rem;
@@ -134,20 +139,28 @@ a {
        border-radius: 1rem;
        }
     h6 {
-        font-size:medium;
+        font-size:0.9rem;
         margin: 1rem;
         margin-left: 0;
     }
     p {
-        font-size: medium;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #979797;
     }
     /* /Site content */
 
 /* /Site Main */
 /* Sitefooter */
 .sitefooter {
-    background-color :saddlebrown;
     margin: 1rem;
-    margin-top: 0.1rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight:bolder;
 }
+.heart {
+    color: red;
+    font-size: x-large;
+}
+
 /* /Sitefooter */
