@@ -67,7 +67,7 @@ a {
     .heroimg {
         margin: 1rem;
         border-radius: 0.5rem;
-        background-image: url("/img/banner.jpg");
+        background-image: url("../img/banner.jpg");
         background-size: cover;
     
     
