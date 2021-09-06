@@ -89,12 +89,14 @@ a {
         margin-left: 0;
     }
     .title {
-        font-size: 2rem; 
-       
+        font-size: 2.5rem;
+        font-weight: bolder;
+        font-family: system-ui;
     }
     .titletext {
-        color: gray;
-        font-size: 1rem;
+        color: #979797;
+        font-size: 0.9rem;
+        font-weight: bold;
     }
 
     
