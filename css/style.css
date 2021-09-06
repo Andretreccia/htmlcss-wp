@@ -67,8 +67,9 @@ a {
     .heroimg {
         margin: 1rem;
         border-radius: 0.5rem;
-        background-color: rgb(138, 120, 88);
-        background-image: url("./img/banner.jpg");
+        background-image: url("/img/banner.jpg");
+        background-size: cover;
+    
     
     }
     .herotext {
